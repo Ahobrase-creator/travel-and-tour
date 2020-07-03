@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Aboutclcear Our Business</title>
+        <link href="styles.css" rel="stylesheet"/>
+        
+       
+
+    </head>
+    <body>
+        <h1>Ahobrase Travel and Business Consult</h1>
+        <h2>About Us<br> <span>Hello there, welcome to <br>Ahobrase Travel and Business Consult</span>.
+            <br>We are here to assist you with your Travel, Tour, Flight booking, and other <br>business deals including Photography, graphic design and website development <br>that will make your business stand out. 
+             </h2>
+             <a href="home.html">Go back to homepage</a>
+       
+             <script>
+            (function () {
+                let names = [
+                   "Anna", "Afua", "Leticia"
+                ]
+                function sayHello (name) {
+                    let bodyElement = document.getElementsByTagName ("body")
+                   let element = document.createElement("p"); 
+                   element.innerText = "Hello: " + name
+                   bodyElement [0].append(element);
+               }
+               names.forEach (sayHello);
+            })();
+            </script>
+
+        
+    </body>
+</html>
